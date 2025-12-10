@@ -1,3 +1,46 @@
 body{
-    background-color: #8afff5
+    background-color: white;
+}
+img, video{
+	max-width: 100%;
+	height: auto;
+}
+
+header {
+    display: flex;
+    align-content: center; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+nav ul {
+    padding: 0;
+}
+nav li {
+    list-style: none; 
+}
+a:link {
+    color:black;
+    text-decoration: none;
+}
+
+   
+a:visited{
+    color:gray
+}
+
+
+
+main {
+    text-align: center
+}
+
+img {
+    align-content: center;
+    width: 500px;
+    height: 500px;
+}
+
+footer {
+    text-align: center
 }
