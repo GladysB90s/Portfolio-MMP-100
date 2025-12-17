@@ -1,12 +1,11 @@
 body{
-    display:flex
+    display:flex;
     background-color: white;
     color: black;
     font-family: courier, monospace, sans-serif;
     border: 5px black solid;
-    border: 5px black solid;
+    padding: 5px;
     max-width: 100%;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -36,6 +35,7 @@ h1 {
 }
 nav ul {
     padding-top: 35px;
+    padding-left: 0;
 }
 nav li {
     list-style: none; 
@@ -59,53 +59,15 @@ main {
 img {
     align-content: center;
     padding-top: 20px;
-    padding-bottom: 35px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-bottom: 20px;
  
 }
 
-.slide-wrapper{
-    position: relative;
-    max-width: 100%; 
-    margin: 0 auto;
-    
+.selfphoto {
+   max-width: 100%;
+   height: auto;
 }
 
-.slider{
-    display:flex;
-    aspect-ratio: 16/9; 
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-}
-
-.slider img{
-    flex: 1 0 100%;
-    scroll-snap-align: start; 
-    object-fit: contain;
-    
-}
-
-.slider-nav{
-    display: flex;
-    column-gap: 1rem;
-    position: absolute;
-    bottom: 1.25rem;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-}
-
-.slider-nav a {
-    width: 0.5rem;
-    height: 0.5rem;
-    border-radius: 50%;
-    background-color: 0000;
-    opacity: 0.75%;
-    transition: opacity-ease 250ms;
-}
 
 footer {
     text-align: center;
